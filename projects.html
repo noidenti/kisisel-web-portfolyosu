@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projelerim | Elif</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<div class="made-with-ai">made with ✨ & AI</div>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Ana Sayfa</a>
+            <a href="about.html">Hakkımda</a>
+            <a href="projects.html">Projelerim</a>
+            <button id="theme-toggle">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="projects-section">
+            <h1>Çalışmalarım & Denemelerim</h1>
+            
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">Tümü</button>
+                <button class="filter-btn" data-filter="okul">Okul Ödevleri</button>
+                <button class="filter-btn" data-filter="sanat">Çizimlerim</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card" data-category="okul">
+                    <img src="images/web-odev.jpeg" alt="Web Tasarım Projesi">
+                    <h3>Web Tasarım</h3>
+                    <p>HTML ve CSS temellerini öğrenirken hazırladığım ilk web sayfası çalışmam.</p>
+                </div>
+
+                <div class="project-card" data-category="sanat">
+                    <img src="images/cizim.jpeg" alt="Kendi Çizimim">
+                    <h3>Karakter Çizimi</h3>
+                    <p>Kendi çapımda üzerinde çalıştığım ve dijital ortama aktardığım bir çizim denemesi.</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
